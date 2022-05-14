@@ -9,4 +9,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 8070
-CMD [ "nodemon", "server.js" ]
+CMD [ "node", "server.js" ]
